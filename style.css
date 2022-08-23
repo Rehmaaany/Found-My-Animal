@@ -1,3 +1,29 @@
+body, html {
+    height: 100%;
+  }       
+      .image { 
+    background-image: url(/Images/img.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 100%;
+    right: 40%;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 20px 24px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 10px;
+  }
+  
+
 #Im:hover{
     cursor: pointer;
 }
