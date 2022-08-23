@@ -1,5 +1,17 @@
 #Im:hover{
     cursor: pointer;
-    
-
 }
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:10%;
+    top:0;
+    height:80%;
+    width:80%;
+    position:absolute;
+  }
